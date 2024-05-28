@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="showItems()">
+    <header>
+        <div>TO DO LIST</div>
+    </header>
+
+    <section>
+        <div>
+            <label for="title" style="padding-right: 120px;">Title : </label>
+            <input type="text" id="title" placeholder="enter your title here....">
+        </div>
+        <div>
+            <label for="title">Description : </label>
+            <textarea name="description" id="description" cols="30" rows="5" placeholder="enter your description here..."></textarea>
+        </div>
+
+        <div class="buttons">
+            <button onclick="addItem()">ADD</button>
+            <button onclick="clearAll()">CLEAR ALL</button>
+        </div>
+        <hr>
+        <h1>YOUR TODO'S</h1>
+        <hr>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Item Title</th>
+                    <th>Item Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="items">
+
+            </tbody>
+        </table>
+    </section>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>

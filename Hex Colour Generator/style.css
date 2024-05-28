@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#heading{
+    margin: 15px;
+    width : 500px;
+    background-color: white;
+    text-align: center;
+}
+
+#button{
+    width: 500px;
+    text-align: center;
+}
+
+#button button{
+    margin: 15px 15px 15px 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button:hover{
+    box-shadow: 5px 5px 15px rgb(173, 140, 140);
+}

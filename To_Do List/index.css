@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 60px;
+    font-weight: 1000;
+    text-shadow: 2px 2px rgb(213, 222, 226);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+}
+
+section label{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    margin: 10px;
+}
+
+section label:nth-child(2){
+    margin-top: 0px;
+}
+
+input, textarea{
+    width: 500px;
+    margin: 25px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+    resize: none;
+    border: 3px solid black;
+}
+
+input{
+    height: 40px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    width: 200px;
+    font-size: 30px;
+    margin-top: 20px;
+    box-shadow: 2px 2px black;
+    color: rgb(48, 37, 37);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    padding: 10px;
+    margin: 5px;
+}
+
+.deleteButton{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+.deleteButton:hover, button:hover{
+    box-shadow: 5px 5px 15px rgb(6, 4, 4);
+    cursor: pointer;
+}
+
+td:nth-child(4){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    margin: 5px;
+}
+
+hr{
+    background-color: black;
+    color: black;
+    height: 5px;
+    width: 90%;
+    margin: 10px;
+}
+
+table{
+    width: 90%;
+    height: auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    border: 3px solid black;
+}

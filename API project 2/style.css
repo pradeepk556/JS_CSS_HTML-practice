@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: linear-gradient(#bc6c25,#606c38 );
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: #283618;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 12vh;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#search{
+    margin-right: 20px;
+}
+
+#search-text, #search button{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+ul li button{
+    background-color: #283618;
+    border: none;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.active{
+    background-color: #bc6c25;
+}
+
+ul li button:hover{
+   cursor: pointer;
+   color: #bc6c25;
+   text-shadow: 2px 2px 10px white;
+}
+
+nav img{
+    height: 10vh;
+    width: 100px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#newsCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 15px #bc6c25;
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    background-color: #ccd5ae;
+    border-radius: 10px;
+    height: 60vh;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+}
+
+.card h3{
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.card p{
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
